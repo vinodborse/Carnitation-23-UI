@@ -1,0 +1,22 @@
+body {
+    background-color: pink;
+}
+
+h1{
+    color: #142b2157;
+    border: 10px red solid;
+    border-radius: 27px;
+    background-color: yellow;
+}
+
+#p-1 {
+    border: solid red 4px;
+    /* background-color: aquamarine; */
+    background-image: url("./images/despicable_me_2_minions-picture1.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+
+    background-image: url("./images/despicable_me_2_minions-picture1.jpg") no-repeat fixed center top;
+}
