@@ -1,0 +1,48 @@
+/* class --->   .
+id ------>   #
+tagName-->   tagName */
+
+.cls{
+    color: red;
+    
+}
+
+.bdr {
+    border: solid red;
+}
+
+#id-2{
+    color: yellow;
+}
+
+.lbl{
+    color: pink;
+}
+
+#l1, .bdr{
+    color: pink;
+}
+
+#l2 {
+    color: green;
+    border: solid green;
+}
+
+#cnf{
+    border: solid red;
+}
+
+#l3{
+    color: yellow;
+}
+
+
+.dbr{
+
+}
+#id-2{
+
+}
+h1{
+
+}
