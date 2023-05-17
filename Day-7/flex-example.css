@@ -1,0 +1,37 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    /* border: solid; */
+}
+
+.h-1 {
+    background-color: aqua;
+    height: 400px;
+}
+
+.h-2 {
+    background-color: yellow;
+}
+.h-3 {
+    background-color: blueviolet;
+}
+.h-4 {
+    background-color: cadetblue;
+}
+.h-5 {
+    background-color: aquamarine;
+}
+
+div {
+    border: solid;
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+h1 {
+    border: solid;
+}
