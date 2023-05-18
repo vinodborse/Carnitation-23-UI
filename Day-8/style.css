@@ -1,0 +1,25 @@
+body {
+    background-color: bisque;
+}
+
+img {
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.container-1 {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-2 {
+    background-color: rgb(222, 150, 150);
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

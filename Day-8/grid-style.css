@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+    font-size: 30px;
+}
+
+.container {
+    background-color: lightblue;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 200px 100px;
+    align-content: space-between;
+    justify-content: space-between;
+
+}
+
+.d-1 {
+    background-color: lightgreen;
+}
+.d-2 {
+    background-color: blueviolet;
+}
+.d-3 {
+    background-color: rgb(193, 90, 107);
+}
+.d-4 {
+    background-color: violet;
+}
+.d-5 {
+    background-color: palevioletred;
+}
+.d-6 {
+    background-color: lightgray;
+}
+.d-7 {
+    background-color: limegreen;
+}
+.d-8 {
+    background-color: lightsalmon;
+}
