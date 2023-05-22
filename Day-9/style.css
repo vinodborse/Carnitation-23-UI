@@ -1,0 +1,22 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    /* background-color: cadetblue; */
+    background-image: linear-gradient(to right, #e52165, #0d1137);
+}
+
+.h-1 {
+    font-weight: 700;
+    /* background-color: aqua; */
+    background-image: linear-gradient(to right, rgba(0, 255, 255, 1), rgba(255, 255, 0, 0.582));
+    color: blueviolet;
+}
+
+.h-2 {
+    font-weight: 400;
+    background-color: brown;
+    color: #fff;
+}
+
+p {
+    font-weight: 100;
+}
