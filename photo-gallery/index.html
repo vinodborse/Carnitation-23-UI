@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Photo Gallery</title>
+</head>
+<body>
+    
+    <div class="usr-form">
+        <div class="div-field">
+            <label class="lbl">User Name:-</label> <input class="inp" type="text" id="inp-name">
+        </div>
+        <div class="div-field">
+            <label class="lbl">Email:-</label> <input class="inp" type="email" id="inp-email">
+        </div>
+        <div class="div-field">
+            <label class="lbl">Password:-</label> <input class="inp" type="password" id="inp-password">
+        </div>
+        <div class="dv-img">
+            <label class="lbl">Image:-</label> <input class="inp" type="file"  id="inp-image">
+        </div>
+        <button id="id-register" onclick="registerUser()">Register</button>
+        <h1 id="reg-response"></h1>
+    </div>
+
+
+    <hr>
+    <input type="text" id="user-id">
+    <button id="user-btn">Get User</button>
+    
+
+    <div id="result-data"> </div>
+
+    <div class="usr-prof" >
+        <div  class="div-field">
+            <label class="lbl">User Name:-</label> <label id="lb-name"></label>
+        </div>
+        <div class="div-field">
+            <label class="lbl">Email:-</label> <label id="lb-email"></label>
+        </div>
+        <div class="div-field">
+            <label class="lbl">Password:-</label> <label id="lb-password"></label>
+        </div>
+        <div class="dv-img">
+            <label class="lbl">Image:-</label> <label id="lb-img"></label>
+        </div>
+    </div>
+    
+
+    <script src="./jquery-3.7.0.min.js"></script>
+    <script src="./user.js"></script>
+</body>
+</html>
+

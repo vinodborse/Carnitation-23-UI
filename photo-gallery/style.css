@@ -1,0 +1,51 @@
+.usr-prof {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.div-field {
+    padding-top: 10px;
+}
+
+.dv-img {
+    padding-top: 10px;
+}
+
+.cl-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.usr-form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;   
+}
+
+.lbl{
+    display: inline-block;
+    width: 100px;
+    
+}
+
+#reg-response {
+    margin-top: 10px;
+    color: rgb(34, 255, 0);
+}
+
+#id-register {
+    margin-top: 10px;
+    margin-left: 120px;
+    width: 100px;
+    background-color: rgb(195, 245, 15);
+    border-radius: 10px;
+    color: black;
+}
